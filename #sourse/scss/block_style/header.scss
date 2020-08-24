@@ -1,0 +1,37 @@
+.nav {
+	display: flex;
+	height: 90px;
+	align-items: center;
+	.logo {
+		img {
+		width: 45px;
+		height: 45px;
+		margin: 10px 0 10px 0;
+	}
+	}
+	.nav_titles {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		ul{
+			min-width: 720px;
+			display: flex;
+			li {
+				position:relative;
+				font-size: 10.5px;
+				color: #868686;
+				margin: 0 14px 0 10px;
+				padding: 10px 20px;
+				border: 1px solid white;
+				font-family: 'Lato', sans-serif;
+				user-select:none;
+				cursor: pointer;
+				&:hover {
+					border-radius: 3px;
+					background: #ffbb42;
+					color: white;
+				}
+			}
+		}
+	}
+}

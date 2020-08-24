@@ -1,0 +1,59 @@
+@import "nullstyle.scss";
+@import "block_style/header.scss";
+@import "block_style/block_1.scss";
+@import "block_style/block_2.scss";
+@import "block_style/block_3.scss";
+@import "block_style/block_4.scss";
+@import "block_style/block_5.scss";
+@import "block_style/block_6.scss";
+@import "block_style/block_7.scss";
+@import "block_style/footer.scss";
+@import "block_style/copyright.scss";
+
+.wrapper_page {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction : column;
+	height: 100%;
+	.wparrer_block {
+		width: 1170px;
+		margin: 0 auto;
+	}
+
+}
+
+
+.btn {
+	font-size: 10.5px;
+	padding: 10px 50px;
+	user-select:none;
+	border-radius: 2px;
+	background: #ffbb42;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	margin-bottom: 5px;
+	color: #394b50;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: #394b50;
+}
+
+
+.title_block{
+	padding-top: 135px;
+}
+

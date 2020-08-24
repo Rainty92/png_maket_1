@@ -1,0 +1,13 @@
+.copyright_wrapper {
+	display: flex;
+	flex: 1 1 auto;
+	height: 45px;
+	background: #709dca;
+	justify-content: center;
+	align-items: center;
+	.copyright_text {
+		font-family: 'Open Sans', sans-serif;
+		color: white;
+		font-size: 13px;
+	}
+}

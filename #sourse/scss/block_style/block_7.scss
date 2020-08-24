@@ -1,0 +1,64 @@
+.block_7 {
+	height: 980px;
+	display: flex;
+	.form_later {
+		margin-top: -40px;
+		justify-content: center;
+		display: flex;
+		input {
+			border: 1px solid #cbcbcb;
+			border-radius: 2px;
+			padding: 8px;
+			margin-right: 5px;
+		}
+		.email_subscribe {
+			width: 350px;
+		}
+		.name_subscribe {
+			width: 200px;
+		}
+		button {
+			text-transform: uppercase;
+		}
+	}
+	.adress_bg {
+		margin-top: 50px;
+		height: 600px;
+		background: url(../../../img/block_7/Layer13.png) no-repeat center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		.logo_subscr {
+			margin-top: 20px;
+		}
+		.adress {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			margin-top: -80px;
+			font-family: 'Lato', sans-serif;
+			background: #394b50;
+			width: 280px;
+			height: 280px;
+			border-radius: 50%;
+			align-items: center;
+			justify-content: center;
+			p:first-child {
+				text-transform: uppercase;
+				color: white;
+				margin-top: -20px;
+			}
+			p {
+				color: #aeb7ba;
+				margin-top: 20px;
+				line-height: 1.8;
+				span {
+					color: #ffbb42;
+				}
+			}
+
+		}
+
+	}
+}
