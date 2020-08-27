@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 .block_3 .left_block_3 {
   display: flex;
   width: 50%;
-  background: url(../../../img/block_3/Layer.png) center/cover no-repeat;
+  background: url(../img/block_3/Layer.png) center/cover no-repeat;
 }
 .block_3 .right_block_3_wrapper {
   display: flex;
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 30px;
 }
 .block_6 .wrapper_reviews .reviews .wrapper_reviews_text:before {
-  content: url("../../../img/block_6/top.png");
+  content: url("../img/block_6/top.png");
   margin-left: -15px;
 }
 .block_6 .wrapper_reviews .reviews .wrapper_reviews_text .reviews_text {
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
 }
 .block_6 .wrapper_reviews .reviews .wrapper_reviews_text .reviews_text:after {
-  content: url("../../../img/block_6/botpng.png");
+  content: url("../img/block_6/botpng.png");
   margin-left: 100px;
 }
 .block_6 .wrapper_reviews .reviews .wrapper_reviews_text .author {
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 .block_7 .adress_bg {
   margin-top: 50px;
   height: 600px;
-  background: url(../../../img/block_7/Layer13.png) no-repeat center;
+  background: url(../img/block_7/Layer13.png) no-repeat center;
   display: flex;
   flex-direction: column;
   align-items: center;
